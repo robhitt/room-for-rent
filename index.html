@@ -12,28 +12,63 @@
 
   <div class="topnav" id="myTopnav">
     <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Social</a>
+    <a href="#">Apt</a>
+    <a href="#">Building</a>
+    <a href="#">Neighborhood</a>
     <a href="#">Contact</a>
-    <a href="#">Dogs</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
-  <div class="row" style="background-color: lightgrey;">
+  <div class="row">
     <div class="col-4 menu">
       <ul>
-        <li>The Apt</li>
-        <li>The Gym</li>
-        <li>The Building</li>
-        <li>The Neighborhood</li>
+        <li onClick="addApt()">The Apt</li>
+        <li onClick="addBuilding()">The Building</li>
+        <li onClick="addNeighborhood()">The Neighborhood</li>
       </ul>
     </div>
 
-    <div class="col-8">
-      <h1>Rob's Apt</h1>
-      <p>Welcome to my world at: </p>
-      <p>214 N. 11th St.</p>
-      <p>Brooklyn NY 11211</p>
+    <div class="col-8" id="apt">
+      <h1>Apt Info</h1>
+      <ul>
+        <li>Washer &amp; Dryer in unit</li>
+        <li>Dishwasher</li>
+        <li>Your Private Bathroom</li>
+        <li>Verizon Fios</li>
+        <li>Central Air</li>
+        <li>Balcony (50 sq ft)</li>
+        <li>Floor to Ceiling Windows</li>
+        <li>South Facing - Lots of sunlight!</li>
+        <li>Parking Space Available</li>
+        <li>Bedroom is 10’ x 11’ 3” + closet</li>
+      </ul>
+    </div>
+
+    <div class="col-8" id="building">
+      <h1>Building Amenities</h1>
+      <ul>
+        <li>24 hr Door Person (great for packages and getting in late, lost key, etc)</li>
+        <li>Parking: (Garage has an automatic door opener from the car)</li>
+        <li>Gym in basement</li>
+        <li>Bike Room</li>
+        <li>Children's Playroom</li>
+        <li>Billiard Area</li>
+        <li>Elevator</li>
+        <li>Rooftop Access</li>
+        <li>Pet Friendly</li>
+      </ul>
+    </div>
+
+    <div class="col-8" id="neighborhood">
+      <h1>The Neighborhood</h1>
+      <ul>
+        <li>Steps from Bedford Avenue &amp; McCarren Park</li>
+        <li>L Train Bedford Ave Walk 4 mins, 0.2 mi</li>
+        <li>L Train &amp; G Train Metropolitan Av Walk 7 mins, 0.4 mi</li>
+        <li>G Train Nassau Av Walk 8 mins, 0.4 mi</li>
+        <li>Yoga to The People literally across the street</li>
+        <li>Chalk Gym 1/2 block away.</li>
+      </ul>
     </div>
   </div>
 
